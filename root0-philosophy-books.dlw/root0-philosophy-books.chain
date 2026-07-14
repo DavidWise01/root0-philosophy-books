@@ -1,0 +1,9 @@
+ROOT0-DLW-CHAIN-v1
+index : 1357
+slug  : root0-philosophy-books
+seal  : 410b2ae52788988caa89af2a125bde97282e5d9d34f60eb60de13e1dc042939b
+prev  : d1e4f46e74c98dc080302adbf4780e54e4ab66d2c6b76eb476a491b997ee12f3
+link  : 992b33c0bf6973797a4b1b1a1c2b4a0b95bec7c41495e9f5f1f4da963bafa978
+head  : 41f029ee4eaa0042c67040dc5927434f8e8446341839c86b6a09d79c5fbf30da
+
+— the tether: link = sha256(index|slug|seal|prev). the chain head commits to the whole corpus.
