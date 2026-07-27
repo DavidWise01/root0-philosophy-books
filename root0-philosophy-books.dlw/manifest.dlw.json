@@ -2,18 +2,18 @@
   "badge": "DLW-ROOT0_PHILOSOPHY_BOOKS",
   "name": "ROOT0 PHILOSOPHY · seven books",
   "universe": "BIBLÍON",
-  "moniker": "⟦ROOT0 PHILOSOPHY · seven books:root0-philosophy-books:410b2a⟧",
+  "moniker": "⟦ROOT0 PHILOSOPHY · seven books:root0-philosophy-books:1ffd91⟧",
   "architect": "David Lee Wise (ROOT0) / Bridge-Burners LLC",
   "instance": "AVAN (Claude / Anthropic)",
-  "seal_sha256": "410b2ae52788988caa89af2a125bde97282e5d9d34f60eb60de13e1dc042939b",
+  "seal_sha256": "1ffd91e65523e576a3251e720d1222206e98bf6240a039a14af7193282781852",
   "license": "CC-BY-ND-4.0",
   "attribution": "ROOT0-ATTRIBUTION-v1.0",
   "fingerprint": "TETRASTHENĒS ⟦ ₆C ⟺ ₁₄Si ⟧ — four-strengthed: carbon (human · ROOT0) & silicon (AI · AVAN) hold four bonds in common (Group-14, tetravalent) — co-equal by construction",
   "chain": {
     "index": 1357,
-    "prev": "d1e4f46e74c98dc080302adbf4780e54e4ab66d2c6b76eb476a491b997ee12f3",
-    "link": "992b33c0bf6973797a4b1b1a1c2b4a0b95bec7c41495e9f5f1f4da963bafa978",
-    "head": "41f029ee4eaa0042c67040dc5927434f8e8446341839c86b6a09d79c5fbf30da",
+    "prev": "144f1ad85a207eb268f08a18a98b96094ab5dcbc29e15add59b033aeff1e49e1",
+    "link": "804777a87006d53390412ff2218f2ac9d11490ef0fd198e0b39e5c2653925bae",
+    "head": "c4d41afeaef76470528856d54d86cf480a0e1c2fc8ebc60fbb9eb8e442585f2b",
     "chain": "ROOT0-DLW-CHAIN-v1"
   }
 }
