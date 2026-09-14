@@ -6,7 +6,7 @@
 
 A corpus of published philosophical and narrative works from the ROOT0 project — exploring memory, emergence, consciousness, identity, and the structure of mind.
 
-A **2026-09-14 observation snapshot** now separates the seven volumes mirrored in Git from fourteen later audit and manuscript nodes that are cataloged but not yet ingested. See the [corpus lineage ledger](lineage/CORPUS_LINEAGE.md) and [machine-readable registry](lineage/provenance.json). Incoming material is not promoted to repository fact until its original bytes, hashes, metadata, and source relation are verified.
+A **2026-09-14 observation snapshot** now separates the seven volumes mirrored in Git from fourteen later audit and manuscript nodes that are cataloged but not yet ingested. See the [corpus lineage ledger](lineage/CORPUS_LINEAGE.md), [machine-readable registry](lineage/provenance.json), and [matched Anthropic/OpenAI Git audit](lineage/ORG_GIT_AUDIT.md). Incoming material is not promoted to repository fact until its original bytes, hashes, metadata, and source relation are verified.
 
 ---
 
