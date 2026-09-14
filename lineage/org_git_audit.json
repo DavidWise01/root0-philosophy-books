@@ -1,0 +1,421 @@
+{
+  "schema": "ROOT0-ORG-GIT-AUDIT-v1.0",
+  "snapshot_date": "2026-09-14",
+  "historical_cutoff": "2025-12-31",
+  "scope": {
+    "sources": [
+      "GitHub public API",
+      "Anthropic first-party policy/research pages",
+      "OpenAI first-party policy/safety pages"
+    ],
+    "search_observation": {
+      "anthropics_query": "organization=anthropics, query=anthropics",
+      "anthropics_visible_matches": 15,
+      "openai_query": "organization=openai, query=openai",
+      "openai_visible_matches": 73,
+      "caveat": "Search-result observations, not complete organization inventories or moral scores."
+    },
+    "axes": [
+      "safety/existential-risk governance",
+      "operational controls",
+      "developer/commercial surface",
+      "provenance/reproducibility"
+    ]
+  },
+  "corpus_ingest": {
+    "status": "blocked",
+    "sha256": null,
+    "reason": "The GitHub connector can write UTF-8 text but this session has no byte-stream access to attachment copies or local hashing interface.",
+    "required_fields": [
+      "filename",
+      "mime",
+      "byte_length",
+      "sha256",
+      "format_metadata",
+      "source_derivative_relation",
+      "cutoff_classification",
+      "signed_commit_or_release"
+    ],
+    "github_sha_note": "GitHub object SHAs are not SHA-256 file digests and must not be substituted."
+  },
+  "anthropic": {
+    "first_party_safety_sources": [
+      {
+        "title": "Constitutional AI: Harmlessness from AI Feedback",
+        "url": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback",
+        "date": "2022-12-15",
+        "cutoff_classification": "admissible"
+      },
+      {
+        "title": "Claude's Constitution",
+        "url": "https://www.anthropic.com/constitution",
+        "date": null,
+        "cutoff_classification": "live_observation"
+      },
+      {
+        "title": "Responsible Scaling Policy",
+        "url": "https://www.anthropic.com/responsible-scaling-policy",
+        "versions_on_or_before_cutoff": [
+          {
+            "version": "1.0",
+            "effective": "2023-09-19"
+          },
+          {
+            "version": "2.0",
+            "effective": "2024-10-15"
+          },
+          {
+            "version": "2.1",
+            "effective": "2025-03-31"
+          },
+          {
+            "version": "2.2",
+            "effective": "2025-05-14"
+          }
+        ],
+        "later_versions": "live_observation",
+        "cutoff_classification": "mixed"
+      },
+      {
+        "title": "Anthropic research index",
+        "url": "https://www.anthropic.com/research",
+        "date": null,
+        "cutoff_classification": "live_observation"
+      }
+    ],
+    "representative_repositories": [
+      {
+        "repo": "anthropics/toy-models-of-superposition",
+        "origin": "2022-09-14",
+        "license": "MIT",
+        "signal": [
+          "research",
+          "interpretability"
+        ],
+        "cutoff": "admissible",
+        "url": "https://github.com/anthropics/toy-models-of-superposition"
+      },
+      {
+        "repo": "anthropics/anthropic-sdk-python",
+        "origin": "2023-01-17",
+        "license": "MIT",
+        "signal": [
+          "API",
+          "developer"
+        ],
+        "controls": [
+          "LICENSE",
+          "CONTRIBUTING.md",
+          "SECURITY.md",
+          ".github"
+        ],
+        "cutoff": "admissible_origin",
+        "url": "https://github.com/anthropics/anthropic-sdk-python"
+      },
+      {
+        "repo": "anthropics/anthropic-sdk-typescript",
+        "origin": "2023-01-30",
+        "license": "MIT",
+        "signal": [
+          "API",
+          "developer"
+        ],
+        "cutoff": "admissible_origin",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript"
+      },
+      {
+        "repo": "anthropics/political-neutrality-eval",
+        "origin": "2025-11-12",
+        "tip_date": "2025-11-13",
+        "license": "CC-BY-4.0",
+        "signal": [
+          "evaluation",
+          "political_even_handedness"
+        ],
+        "cutoff": "admissible",
+        "url": "https://github.com/anthropics/political-neutrality-eval"
+      },
+      {
+        "repo": "anthropics/claude-code-base-action",
+        "origin": "2025-05-19",
+        "license": "MIT",
+        "signal": [
+          "automation",
+          "developer"
+        ],
+        "controls": [
+          "README trust-boundary warning"
+        ],
+        "cutoff": "admissible",
+        "url": "https://github.com/anthropics/claude-code-base-action"
+      },
+      {
+        "repo": "anthropics/claude-plugins-official",
+        "origin": "2025-11-20",
+        "license": "Apache-2.0",
+        "signal": [
+          "plugins",
+          "ecosystem"
+        ],
+        "controls": [
+          ".github",
+          "README third-party trust warning"
+        ],
+        "cutoff": "admissible",
+        "url": "https://github.com/anthropics/claude-plugins-official"
+      },
+      {
+        "repo": "anthropics/courses",
+        "origin": "2024-05-30",
+        "license": "NOASSERTION",
+        "signal": [
+          "education",
+          "prompt_evals",
+          "tool_use",
+          "API_cost_guidance"
+        ],
+        "cutoff": "admissible_origin",
+        "url": "https://github.com/anthropics/courses"
+      },
+      {
+        "repo": "anthropics/devcontainer-features",
+        "origin": "2025-03-03",
+        "tip_date": "2025-12-16",
+        "license": "MIT",
+        "signal": [
+          "developer_distribution"
+        ],
+        "cutoff": "admissible",
+        "url": "https://github.com/anthropics/devcontainer-features"
+      }
+    ],
+    "integrity_samples": [
+      {
+        "repo": "anthropics/political-neutrality-eval",
+        "commit": "c5ed67908b56edc0781f47821241ca44114bd4ff",
+        "date": "2025-11-13",
+        "verified": true,
+        "reason": "valid",
+        "url": "https://github.com/anthropics/political-neutrality-eval/commit/c5ed67908b56edc0781f47821241ca44114bd4ff"
+      },
+      {
+        "repo": "anthropics/anthropic-sdk-python",
+        "commit": "eb21a4352015686c30f5759e8c2f02d70f5371e2",
+        "date": "2026-09-10",
+        "verified": true,
+        "reason": "valid",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/commit/eb21a4352015686c30f5759e8c2f02d70f5371e2"
+      }
+    ]
+  },
+  "openai": {
+    "first_party_safety_sources": [
+      {
+        "title": "OpenAI Charter",
+        "url": "https://openai.com/charter/",
+        "date": "2018-04-09",
+        "cutoff_classification": "admissible"
+      },
+      {
+        "title": "Our updated Preparedness Framework",
+        "url": "https://openai.com/index/updating-our-preparedness-framework/",
+        "date": "2025-04-15",
+        "cutoff_classification": "admissible"
+      },
+      {
+        "title": "Safety & responsibility",
+        "url": "https://openai.com/safety/",
+        "date": null,
+        "cutoff_classification": "live_observation"
+      },
+      {
+        "title": "Model Spec repository",
+        "url": "https://github.com/openai/model_spec",
+        "date": "2025-02-06",
+        "cutoff_classification": "admissible_origin"
+      }
+    ],
+    "representative_repositories": [
+      {
+        "repo": "openai/openai-python",
+        "origin": "2020-10-25",
+        "license": "Apache-2.0",
+        "signal": [
+          "API",
+          "developer"
+        ],
+        "cutoff": "admissible_origin",
+        "url": "https://github.com/openai/openai-python"
+      },
+      {
+        "repo": "openai/openai-cookbook",
+        "origin": "2022-03-11",
+        "license": "MIT",
+        "signal": [
+          "API_examples",
+          "developer"
+        ],
+        "cutoff": "admissible_origin",
+        "url": "https://github.com/openai/openai-cookbook"
+      },
+      {
+        "repo": "openai/swarm",
+        "origin": "2024-02-22",
+        "license": "MIT",
+        "signal": [
+          "experimental_multi_agent",
+          "developer"
+        ],
+        "cutoff": "admissible_origin",
+        "url": "https://github.com/openai/swarm"
+      },
+      {
+        "repo": "openai/model_spec",
+        "origin": "2025-02-06",
+        "license": "CC0-1.0",
+        "signal": [
+          "behavior_specification",
+          "governance"
+        ],
+        "cutoff": "admissible_origin",
+        "url": "https://github.com/openai/model_spec"
+      },
+      {
+        "repo": "openai/frontier-evals",
+        "origin": "2025-03-28",
+        "license": "MIT",
+        "signal": [
+          "frontier_evals",
+          "risk_evaluation"
+        ],
+        "cutoff": "admissible_origin",
+        "url": "https://github.com/openai/frontier-evals"
+      },
+      {
+        "repo": "openai/openai-agents-python",
+        "origin": "2025-03-11",
+        "license": "MIT",
+        "signal": [
+          "agents",
+          "guardrails",
+          "handoffs",
+          "developer"
+        ],
+        "cutoff": "admissible_origin",
+        "url": "https://github.com/openai/openai-agents-python"
+      },
+      {
+        "repo": "openai/openai-guardrails-python",
+        "origin": "2025-04-09",
+        "license": "MIT",
+        "signal": [
+          "safety",
+          "compliance"
+        ],
+        "controls": [
+          "LICENSE",
+          "CONTRIBUTING.md",
+          "SECURITY.md",
+          ".github"
+        ],
+        "cutoff": "admissible_origin",
+        "url": "https://github.com/openai/openai-guardrails-python"
+      },
+      {
+        "repo": "openai/gpt-oss",
+        "origin": "2025-06-23",
+        "license": "Apache-2.0",
+        "signal": [
+          "open_weights",
+          "developer_distribution"
+        ],
+        "cutoff": "admissible_origin",
+        "url": "https://github.com/openai/gpt-oss"
+      },
+      {
+        "repo": "openai/model_spec_evals",
+        "origin": "2026-03-24",
+        "license": "MIT",
+        "signal": [
+          "model_spec_compliance_eval"
+        ],
+        "cutoff": "live_observation",
+        "url": "https://github.com/openai/model_spec_evals"
+      },
+      {
+        "repo": "openai/privacy-filter",
+        "origin": "2026-04-17",
+        "license": "Apache-2.0",
+        "signal": [
+          "PII_protection",
+          "on_prem"
+        ],
+        "controls": [
+          "SECURITY.md"
+        ],
+        "cutoff": "live_observation",
+        "url": "https://github.com/openai/privacy-filter"
+      },
+      {
+        "repo": "openai/codex-security",
+        "origin": "2026-07-13",
+        "license": "Apache-2.0",
+        "signal": [
+          "security_analysis",
+          "remediation"
+        ],
+        "cutoff": "live_observation",
+        "url": "https://github.com/openai/codex-security"
+      }
+    ],
+    "integrity_samples": [
+      {
+        "repo": "openai/openai-python",
+        "commit": "e12b81d3bbf644ec7045e152d69bc4b68d69cd48",
+        "date": "2026-09-11",
+        "verified": true,
+        "reason": "valid",
+        "url": "https://github.com/openai/openai-python/commit/e12b81d3bbf644ec7045e152d69bc4b68d69cd48"
+      },
+      {
+        "repo": "openai/model_spec",
+        "commit": "7f1cf79fcb656c07f77c8d95b6fbc78dc7fac5b6",
+        "date": "2026-08-17",
+        "verified": false,
+        "reason": "unsigned",
+        "url": "https://github.com/openai/model_spec/commit/7f1cf79fcb656c07f77c8d95b6fbc78dc7fac5b6"
+      }
+    ]
+  },
+  "interpretation": {
+    "anthropic": {
+      "safety_governance_public_signal": "high",
+      "operational_controls_public_signal": "medium",
+      "developer_commercial_public_signal": "high",
+      "provenance_public_signal": "medium_high_sampled",
+      "rationale": "Constitutional AI, Constitution, versioned RSP, alignment/research work, evals, SDKs, plugins, and explicit plugin/action trust warnings are all public. Policies are voluntary and sampled, not exhaustive."
+    },
+    "openai": {
+      "safety_governance_public_signal": "high",
+      "operational_controls_public_signal": "medium_high",
+      "developer_commercial_public_signal": "very_high",
+      "provenance_public_signal": "mixed_sampled",
+      "rationale": "Charter, Preparedness Framework, Model Spec, frontier evals, guardrails, privacy/security tooling, SDKs, agents, Cookbook, and open-weight work are all public. Sampled tip signatures are mixed."
+    },
+    "conclusion": "Public evidence supports mixed incentives and outputs: both organizations invest in safety/ethics/catastrophic-risk governance and in commercialization/developer adoption. Git history cannot establish private motive, profit allocation, deployment effectiveness, or that existential risk has been solved."
+  },
+  "sources": {
+    "anthropic": [
+      "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback",
+      "https://www.anthropic.com/constitution",
+      "https://www.anthropic.com/responsible-scaling-policy",
+      "https://www.anthropic.com/research"
+    ],
+    "openai": [
+      "https://openai.com/charter/",
+      "https://openai.com/index/updating-our-preparedness-framework/",
+      "https://openai.com/safety/",
+      "https://github.com/openai/model_spec"
+    ]
+  }
+}
