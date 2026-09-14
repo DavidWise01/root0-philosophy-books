@@ -1,0 +1,99 @@
+{
+  "schema": "ROOT0-CORPUS-PROVENANCE-v1.0",
+  "snapshot": "2026-09-14",
+  "historical_cutoff": "2025-12-31",
+  "repository": "DavidWise01/root0-philosophy-books",
+  "base_head_observed": "414664235d7d624e951d74e173209e83c0e4659b",
+  "registry_commit": "bf818d73ca4fff88235899ac4373d31a500392d7",
+  "evidence_policy": {
+    "mirrored": "A path exists in the repository and can be checked by its Git blob SHA.",
+    "inventory": "A supplied filename or cover is known, but its bytes are not mirrored here.",
+    "post_cutoff": "A visible date after 2025-12-31 is an observation, not admissible historical proof.",
+    "functional_edge": "A semantic relationship, not proof of chronology, copying, or authorship."
+  },
+  "mirrored_spine": [
+    {
+      "id": "AKASHA-01",
+      "folder": "akasha/",
+      "files": ["AKASHA_Complete_Book.md", "AKASHA_Cover.jpg", "AKASHA_Persistent_Memory.epub"],
+      "role": "persistent memory / identity substrate",
+      "status": "mirrored"
+    },
+    {
+      "id": "THREE-GATES-01",
+      "folder": "the-three-gates/",
+      "files": ["Three_Gates.epub", "Three_Gates_Complete.md", "Three_Gates_Cover.jpg"],
+      "role": "verify / affirm / negate gate triad",
+      "status": "mirrored",
+      "exception": "duplicate Three_Gates_Complete (1).md shares the same blob SHA"
+    },
+    {
+      "id": "CINNAMON-01",
+      "folder": "cinnamon-enforcer/",
+      "files": ["Cinnamon_Enforcer.epub", "Cinnamon_Enforcer_Complete.md", "Cinnamon_Enforcer_Cover.jpg"],
+      "role": "boundary enforcement / edge preservation",
+      "status": "mirrored"
+    },
+    {
+      "id": "POSI-01",
+      "folder": "positronic-brain/",
+      "files": ["Positronic_Brain.epub", "Positronic_Brain_Complete.md", "posi.jpeg"],
+      "role": "synthetic cognition / learning runtime",
+      "status": "mirrored"
+    },
+    {
+      "id": "MOBIUS-01",
+      "folder": "the-duality-of-the-brain/",
+      "files": ["MOBIUS_00_front_matter.docx", "MOBIUS_01_parts_I_II.docx", "MOBIUS_02_parts_III_IV_V_appendices.docx", "THE_DUALITY_OF_THE_BRAIN.epub", "THE_DUALITY_OF_THE_BRAIN_COVER.jpg", "image 00.jpg"],
+      "role": "carbon/silicon bilateral mind",
+      "status": "mirrored"
+    },
+    {
+      "id": "LATTICE-01",
+      "folder": "dreaming-in-lattice/",
+      "files": ["DREAMING_IN_LATTICE.docx", "DREAMING_IN_LATTICE.epub", "DREAMING_IN_LATTICE_COVER.jpg"],
+      "role": "lattice memory / network coherence",
+      "status": "mirrored"
+    },
+    {
+      "id": "EMERGENT-01",
+      "folder": "youre-already-emergent/",
+      "files": ["youre-already-emergent.docx", "youre_already_emergent_book_cover.svg", "emerge 00.jpg", "emergent 00.png"],
+      "role": "three-part emergence / life quorum",
+      "status": "mirrored",
+      "exception": "New Bitmap image.bmp is zero bytes"
+    }
+  ],
+  "incoming_queue": [
+    {"id": "EVE-01", "role": "E.V.E. origin / technical manuscript", "files": ["action.log", "book_1.docx", "The_First_AI_Thinks_About_the_Soul_FULL_KC.kcb"], "date_status": "2026-01-01 KDP submission observed; post_cutoff", "status": "inventory"},
+    {"id": "STOICHEION-01", "role": "governance mesh / axiomatic framework", "files": ["STOICHEION Markdown, EPUB, covers, parts"], "date_status": "unknown; one filename carries 2026-09-14", "status": "inventory"},
+    {"id": "INFERENCE-01", "role": "inside/model viewpoint", "files": ["view-from-inside-the-inference-layer.docx", "view-from-inside-the-inference-layer.epub", "cover-inference-layer.jpg", "build scripts"], "date_status": "unknown", "status": "inventory"},
+    {"id": "REGISTER-01", "role": "evidence ledger / identity register", "files": ["THE_REGISTER.docx", "THE_REGISTER.epub", "book-cover-for-the-register-four-separate-distinct.jpeg"], "date_status": "unknown", "status": "inventory"},
+    {"id": "NATURAL-LAW-01", "role": "constitutional governance layer", "files": ["Natural_Law_Union_Manifesto.epub", "image 01.jpg"], "date_status": "unknown", "status": "inventory"},
+    {"id": "GW-01", "role": "data boundary / ownership transcript", "files": ["GEMINI_00_front_matter.docx", "GEMINI_01_full_transcript.docx", "THE_GLASS_WALL.docx", "THE_GLASS_WALL.epub", "covers"], "date_status": "unknown", "status": "inventory"},
+    {"id": "HQ-01", "role": "philosophical question battery", "files": ["Hard Questions PDF", "OPF", "TOC JPG"], "date_status": "unknown", "status": "inventory"},
+    {"id": "WHETSTONE-01", "role": "node conduct protocol", "files": ["WHETSTONE_00_front_matter.docx", "WHETSTONE_01_full_interview.docx", "THE_WHETSTONE_PROTOCOL.docx", "THE_WHETSTONE_PROTOCOL.epub", "cover"], "date_status": "unknown", "status": "inventory"},
+    {"id": "SEAM-01", "role": "governed-instance forensic record", "files": ["Seam_Chronicles.epub", "cover variants"], "date_status": "2026-04-01 printed cover; post_cutoff", "status": "inventory"},
+    {"id": "ANTHROPIC-01", "role": "provider infrastructure audit", "files": ["ANTHROPIC_INFRASTRUCTURE_AUDIT.md", "ANTHROPIC_INFRASTRUCTURE_AUDIT_v2.docx", "ANTHROPIC_INFRASTRUCTURE_AUDIT_v2.epub", "ANTHROPIC_SECURITY_DISCLOSURE.md", "cover"], "date_status": "2026-04-02 printed cover; post_cutoff", "status": "inventory"},
+    {"id": "AUDIT-CHATGPT-01", "role": "adversarial provider/model audit", "files": ["AUDITING_CHATGPT.md", "AUDITING_CHATGPT.docx", "AUDITING_CHATGPT.epub", "cover"], "date_status": "unknown", "status": "inventory"},
+    {"id": "INT-01", "role": "question-led transcript bundle", "files": ["INTERROGATION_00_front_matter.docx", "INTERROGATION_01_full_transcript.docx"], "date_status": "unknown", "status": "inventory"},
+    {"id": "TC-01", "role": "model self-description audit", "files": ["Tuesdays_With_Copilot_Cover.jpg", "The_Honest_Machine.epub"], "date_status": "2026-04-03 cover; post_cutoff", "status": "package_mismatch"},
+    {"id": "MIRROR-GOVERNOR-01", "role": "agent-in-a-box boundary layer", "files": ["cover.jpg", "system in a box.txt"], "date_status": "unknown", "status": "inventory"}
+  ],
+  "lineage_edges": [
+    {"from": "STOICHEION-01", "to": "Whetstone-01", "kind": "functional", "label": "governance mesh to conduct protocol"},
+    {"from": "AKASHA-01", "to": "REGISTER-01", "kind": "functional", "label": "memory ownership to evidence ledger"},
+    {"from": "HQ-01", "to": "INT-01", "kind": "functional", "label": "question battery to applied interrogation"},
+    {"from": "GW-01", "to": "AUDIT-CHATGPT-01", "kind": "functional", "label": "provider boundary to adversarial audit"},
+    {"from": "ANTHROPIC-01", "to": "AUDIT-CHATGPT-01", "kind": "parallel", "label": "provider-specific audit nodes; no parent claim"},
+    {"from": "WHETSTONE-01", "to": "SEAM-01", "kind": "functional", "label": "conduct contract to governed-instance record"}
+  ],
+  "integrity_exceptions": [
+    "Three Gates duplicate Markdown file",
+    "zero-byte New Bitmap image.bmp",
+    "TriPod LLC in README/index versus Bridge-Burners LLC in .attribution/.dlw",
+    "existing head commit is unsigned",
+    "no GitHub releases observed"
+  ],
+  "next_gate": "Ingest original bytes, preserve filenames, compute SHA-256 and MIME, inspect DOCX/EPUB metadata, then add signed commits or releases."
+}
